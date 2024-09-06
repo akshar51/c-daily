@@ -16,5 +16,5 @@ main(){
 	//final equation
 	float angle = first_angle + second_angle;
 	float third_angle = 180 - angle;
-	printf("Your Third angle is :%.f degree",third_angle);
+	printf("Your Third angle of right triangle is :%.f degree",third_angle);
 }

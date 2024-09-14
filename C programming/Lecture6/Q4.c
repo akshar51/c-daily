@@ -20,31 +20,37 @@ main(){
 				printf("%d is big",d);
 			}	
 		}
+		else{
+			if(c>d){
+				printf("%d is big",c);
+			}
+			else{
+				printf("%d is big",d);
+			}
+		}
 	}
-	else if(b>a){
+	else{
 		if(b>c){
 			if(b>d){
-					printf("%d is big",b);
-				}
-			else{
-					printf("%d is big",d);
-				}	
+				printf("%d is big",b);
 			}
+			else{
+				printf("%d is big",d);
+			}
+			
 		}
-	else if(c>a){
-		if(c>b){
+		else{
 			if(c>d){
-					printf("%d is big",c);
-				}
-			else{
-					printf("%d is big",d);
-				}	
+				printf("%d is big",c);
 			}
+			else{
+				printf("%d is big",d);
+			}
+			
 		}
-	else{
-		printf("%d is big",d);
 	}
 	
+		
 
 }
 

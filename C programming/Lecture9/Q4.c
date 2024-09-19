@@ -1,17 +1,19 @@
 #include<stdio.h>
 
 main(){
-	int num,i;
-	float a = 0;
-	float b = 1;
-	float total= a+b;
+	//FIBONACCI
+	int num,i,result;
+	int a = 0;
+	int b = 1;
 	printf("Enter number :");
 	scanf("%d",&num);
-	do{
-		if(i=3){
-			printf("%d",i);
-		}
-		++i;
+	printf("%d %d",a,b);
+	
+	for(i=0;i<=num;i++){
+		
+		result=a+b;
+		printf(" %d",result);
+		a=b;
+		b=result;
 	}
-	while(i<=num);
 }

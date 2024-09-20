@@ -11,14 +11,12 @@ main(){
 	
 	//First digit
 	last = number % 10;
-	printf("%d\n",last);
 	
 	//Second digit
 	while(number>10){
 		number = number / 10;
 	}
 	first = number;
-	printf("%d\n",first);
 	
 	//Sum
 	sum = first + last;

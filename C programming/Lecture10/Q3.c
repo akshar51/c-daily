@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 main(){
+	
+	//TABLE
+	
 	int i;
 	int j;
 	int sum;

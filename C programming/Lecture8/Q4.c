@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 main(){
+	//ODD FROM N TO 1
 	int i;
 	int n;
 	printf("Enter your number :");

@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 main(){
+	//PRINT EVEN NUMBER FROM 1 TO N
 	int i = 1;
 	int num;
 	printf("Enter number :");

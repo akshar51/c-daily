@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 main(){
+	
+	//FACTORIAL
+	
 	int i,sum;
 	float j;
 	printf("Enter your number :");

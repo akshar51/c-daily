@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 main(){
+	
+	//SUM OF ALL NUMBER
+	
 	int i;
 	int sum=0;
 	float n;

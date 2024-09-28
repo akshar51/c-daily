@@ -1,14 +1,15 @@
 #include<stdio.h>
 
 main(){
-	// LENGTH OF ARRAY
-	//a[0] = 3
-	//a[1] = 7
-	//a[2] = 1
-	//a[3] = 8
-	//a[4] = 6
+	// FIND THE AVERAGE
+	//a[0] = 12
+	//a[1] = 42
+	//a[2] = 18
+	//a[3] = 50
+	//a[4] = 26
+	//Output: Average of an Array: 29.6
 	int i,len;
-	int num=0;
+	int sum=0;
 	printf("Enter number of array :");
 	scanf("%d",&len);
 	int a[len];
@@ -16,8 +17,10 @@ main(){
 	for(i=0;i<len;i++){
 		printf("a[%d] =",i);
 		scanf("%d",&a[i]);
-		num++;
+		sum+=a[i];
 	}
-	printf("Length of array is : %d",num);
-	
+	sum =sum/len;
+	printf("Sum of array : %d",sum);
 }
+
+

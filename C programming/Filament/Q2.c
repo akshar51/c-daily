@@ -4,7 +4,7 @@
 main(){
 	//FREQUENCY COUNTER
 	
-	char str[20], c;
+	char str[50], c;
     int count, i;
  	printf("Enter any string: ");
   	gets(str);

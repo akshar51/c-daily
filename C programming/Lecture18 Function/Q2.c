@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 float salary(float,float,float,float);
 main(){
 	float BaseSalary,HRA,DA,TA;

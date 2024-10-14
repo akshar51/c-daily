@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 main(){
-	int i,n,a[n],*p[n];
+	//SQUARE OF POINTER
+	
+	int i,n,a[n],*p[n],sum;
 	printf("Enter the size of array : ");
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
@@ -13,7 +15,7 @@ main(){
 	}
 	printf("Square of all element :");
 	for(i=0;i<n;i++){
-		*p[i]=*p[i]**p[i];
-		printf("%d",*p[i]);
+		sum=(*p[i])*(*p[i]);
+		printf("%d ",sum);
 	}
 }

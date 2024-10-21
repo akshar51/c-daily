@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Structures and Percentage Calculation
 struct Student {
     int roll_no;
     char name[50];

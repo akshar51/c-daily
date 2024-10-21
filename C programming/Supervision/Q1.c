@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    //writes even & odd numbers from 50 to 70 into two separate files.
     FILE *ptr, *ptr1;
     int i;
 
